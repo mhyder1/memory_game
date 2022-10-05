@@ -1,8 +1,12 @@
+body {
+  min-height: 0 !important;
+  /* display: block; */
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .logo {
