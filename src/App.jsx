@@ -1,16 +1,17 @@
 import { useState } from 'react';
 import './App.css';
+import { GameContextProvider } from './context/gameContext';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Board from './Board/Board';
 
 function App() {
   return (
-    <div>
+    <GameContextProvider>
       <Header />
       <Board />
       <Footer />
-    </div>
+    </GameContextProvider>
   );
 }
 
